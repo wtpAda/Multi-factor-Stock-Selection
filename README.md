@@ -163,7 +163,7 @@ Expected schema:
 Install dependencies:
 
 ```bash
-pip install numpy pandas scipy matplotlib tqdm pandas-datareader yfinance
+pip install -r requirements.txt
 ```
 
 Run rolling backtest:
@@ -213,3 +213,9 @@ For production use, add:
 - realistic slippage/impact modeling
 - portfolio and execution constraints
 - reproducible experiment tracking
+
+## Repository Hygiene
+
+- Dependency list: `requirements.txt`
+- Contribution guide: `CONTRIBUTING.md`
+- License: `LICENSE`

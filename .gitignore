@@ -1,0 +1,27 @@
+# Python cache and tooling
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Local market data and research inputs
+combined_sp500_data.csv
+spx_data.csv
+risk_free_rate.csv
+SPX.csv
+sp500_data/
+
+# Local experiment outputs
+*.log
+tmp/
